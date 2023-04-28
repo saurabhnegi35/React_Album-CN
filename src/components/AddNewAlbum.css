@@ -1,0 +1,26 @@
+.addNewAlbumButton {
+  height: 300px;
+  width: 300px;
+  min-width: 250px;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 2px solid black;
+  transition: all 0.25s ease-in-out;
+  background-image: url("https://img.freepik.com/free-photo/lake-mountains_1204-502.jpg?w=1380&t=st=1682695149~exp=1682695749~hmac=8bdcd7ea4208b77da23f23565e59782b9a977a3b5ff4df35909af29a32610468");
+}
+
+.addNewAlbumButton:hover {
+  box-shadow: 0 0 10px 2.5px #555;
+  transform: scale(1.05);
+  background-image: url("https://img.freepik.com/free-photo/lake-mountains_1204-502.jpg?w=1380&t=st=1682695149~exp=1682695749~hmac=8bdcd7ea4208b77da23f23565e59782b9a977a3b5ff4df35909af29a32610468");
+  background-position: center;
+}
+
+.addNewAlbumH1 {
+  font-weight: 100;
+  color: #ffffff;
+}
